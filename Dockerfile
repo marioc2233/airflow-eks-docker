@@ -4,6 +4,9 @@ LABEL version="2.0.0"
 
 RUN pip install --user pytest
 
+RUN pip install --upgrade pip
+RUN pip install --upgrade cython
+
 COPY requirements.txt ${AIRFLOW_HOME}/requirements/requirements.txt
 
 RUN pip install -r ${AIRFLOW_HOME}/requirements/requirements.txt
