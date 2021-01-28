@@ -7,7 +7,7 @@ pyathena
 pymongo
 sqlalchemy
 pymysql
-pymssql==2.1.4
+pymssql==2.1.5
 elasticsearch
 bs4
 s3fs
