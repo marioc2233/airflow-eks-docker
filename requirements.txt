@@ -1,7 +1,6 @@
 https://mmlake-packages.s3.us-east-2.amazonaws.com/mm_lake_tools-master.zip 
 pyarrow
 numba==0.50.0
-fastparquet
 boto3
 pyathena
 pymongo
